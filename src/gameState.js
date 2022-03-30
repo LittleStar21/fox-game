@@ -165,7 +165,8 @@ const gameState = {
   },
 
   changeWeather() {
-    console.log("Weather");
+    this.scene = (this.scene + 1) % SCENES.length;
+    modifyScene(SCENES[this.scene]);
   },
 
   cleanUpPoop() {
