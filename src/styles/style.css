@@ -84,11 +84,12 @@ body {
 .modal-inner {
   background-color: blueviolet;
   color: white;
-  padding: 20px;
+  padding: 16px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   border-radius: 12px;
+  outline: 3px solid #00ffff;
 }
 
 .modal {
