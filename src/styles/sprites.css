@@ -21,10 +21,12 @@
 .btn:hover,
 .btn:focus {
   background-image: url(../bg/BUTTONS/Hover.png);
+  transition: 0.2s;
 }
 
 .btn:active {
   background-image: url(../bg/BUTTONS/Selected.png);
+  transition: 0.2s;
 }
 
 .icon {
