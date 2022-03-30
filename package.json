@@ -21,7 +21,16 @@
     "parcel-bundler": "^1.12.5",
     "prettier": "^2.6.1"
   },
-  "browserslist": [
-    "last 2 Chrome version"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
